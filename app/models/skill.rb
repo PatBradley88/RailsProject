@@ -1,5 +1,5 @@
 class Skill < ApplicationRecord
-  include Placeholder
+  includegit pull Placeholder
   validates_presence_of :title, :percent_level
 
   def set_defaults
