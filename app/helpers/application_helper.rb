@@ -14,4 +14,8 @@ module ApplicationHelper
    		content_tag(:p, greeting, class: "source-greeting")
    	end
    end
+
+   def copyright_generator
+     BradleyViewTool::Renderer.copyright 'Patrick Bradley', 'All rights reserved'
+   end
 end

@@ -49,3 +49,5 @@ gem 'devise', '~> 4.2'
 
 gem 'bootstrap', '~> 4.4.1'
 gem 'jquery-rails'
+
+gem 'bradley_view_tool', git: 'https://github.com/PatBradley88/bradley_view_tool'
