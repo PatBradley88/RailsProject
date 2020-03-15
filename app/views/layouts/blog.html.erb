@@ -18,14 +18,7 @@
   <body>
 
     <!-- Start of nav -->
-    <div class="container">
-      <nav class="nav d-flex justify-content-between">
-        <a class="p-2 text-muted" href="#">World</a>
-        <a class="p-2 text-muted" href="#">U.S.</a>
-        <a class="p-2 text-muted" href="#">Technology</a>
-        <a class="p-2 text-muted" href="#">Design</a>
-      </nav>
-    </div>
+    <%= render "shared/blog_nav" %>
     <!-- End of Nav -->
 
     <div class="blog-header">
@@ -38,7 +31,7 @@
 
     <div class="container">
       <div class="row">
-        <%= login_helper %>
+        
     
         <%= yield %>
 
@@ -86,7 +79,7 @@
           </p>
         </footer>
 
-        <%= render "shared/nav", location: 'bottom' %>
+        
 
         <%= source_helper("blog") %>
       </div>
