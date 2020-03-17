@@ -8,7 +8,7 @@ class Portfolio < ApplicationRecord
 
   after_initialize :set_defaults
 
-  def self.by_postion
+  def self.by_position
     order("position ASC")
   end
 

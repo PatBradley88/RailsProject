@@ -57,3 +57,5 @@ gem 'kaminari', '~> 1.2'
 
 gem 'popper_js', '~> 1.16'
 
+gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
+
