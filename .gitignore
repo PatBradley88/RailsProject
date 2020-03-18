@@ -33,3 +33,4 @@ yarn-debug.log*
 
 # I don't want to show my sectets
 /config/secrets.yml
+.env
