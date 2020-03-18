@@ -59,3 +59,8 @@ gem 'popper_js', '~> 1.16'
 
 gem 'jquery-ui-rails', '~> 6.0', '>= 6.0.1'
 
+gem 'carrierwave', '~> 2.0'
+gem 'mini_magick', '~> 4.10', '>= 4.10.1'
+gem 'carrierwave-aws', '~> 1.4'
+gem 'dotenv-rails', '~> 2.7', '>= 2.7.5'
+
