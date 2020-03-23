@@ -4,6 +4,17 @@
             <p class="mb-0">This is where I write about some of the projects that I have worked on and am working on at the moment.</p>
           </div>
 
+          <div class="sidebar-module">
+            <%= source_helper("alert alert-info") %>
+          </div>
+
+          <div class="sidebar-module">
+            <h4>Topics</h4>
+            <% @side_bar_topics.each do |topic| %>
+              <p><%= link_to topic.title, topic_path(topic) %></p>
+            <% end %>
+          </div>
+
           <div class="p-4">
             <h4 class="font-italic">Elsewhere</h4>
             <ol class="list-unstyled social-links">

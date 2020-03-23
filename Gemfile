@@ -63,4 +63,6 @@ gem 'carrierwave', '~> 2.0'
 gem 'mini_magick', '~> 4.10', '>= 4.10.1'
 gem 'carrierwave-aws', '~> 1.4'
 gem 'dotenv-rails', '~> 2.7', '>= 2.7.5'
+gem 'redcarpet', '~> 3.5'
+gem 'coderay', '~> 1.1', '>= 1.1.2'
 
