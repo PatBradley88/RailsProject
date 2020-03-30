@@ -16,6 +16,7 @@ require("custom/html.sortable")
 // require jquery3
 // require bootstrap_sprockets
 //= require jquery-ui
+//= require cable
 // require popper
 // require popover_config
 // require bootstrap
