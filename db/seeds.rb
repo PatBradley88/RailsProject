@@ -1,8 +1,8 @@
 User.create!(
-  email: "patrick_bradley1@yahoo.co.uk",
+  email: "test@test.com",
   password: "Password1",
   password_confirmation: "Password1",
-  name: "Patrick Bradley",
+  name: "Testy McTestface",
   roles: "site_admin"
 )
 
